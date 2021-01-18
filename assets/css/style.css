@@ -1,0 +1,852 @@
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../fonts/Montserrat/Montserrat-Bold.eot");
+  src: url("../fonts/Montserrat/Montserrat-Bold.otf") format("opentype"), url("../fonts/Montserrat/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat-Bold.svg#svgFontName") format("svg");
+}
+
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url("../fonts/Montserrat/Montserrat-Medium.eot");
+  src: url("../fonts/Montserrat/Montserrat-Medium.otf") format("opentype"), url("../fonts/Montserrat/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat-Medium.svg#svgFontName") format("svg");
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.eot");
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.otf") format("opentype"), url("../fonts/Montserrat/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat-SemiBold.svg#svgFontName") format("svg");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("../fonts/Montserrat/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat/Montserrat-Regular.otf") format("opentype"), url("../fonts/Montserrat/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat-Regular.svg#svgFontName") format("svg");
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url("../fonts/Montserrat/Montserrat-Light.eot");
+  src: url("../fonts/Montserrat/Montserrat-Light.otf") format("opentype"), url("../fonts/Montserrat/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Light.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat-Light.svg#svgFontName") format("svg");
+}
+
+@font-face {
+  font-family: Montserrat-ExtraLight;
+  src: url("../fonts/Montserrat/Montserrat-ExtraLight.eot");
+  src: url("../fonts/Montserrat/Montserrat-ExtraLight.otf") format("opentype"), url("../fonts/Montserrat/Montserrat-ExtraLight.woff") format("woff"), url("../fonts/Montserrat/Montserrat-ExtraLight.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat-ExtraLight.svg#svgFontName") format("svg");
+}
+
+.navbar{
+  width: 100%;
+  float: left;
+  padding: 20px 80px;
+  background-color: #efefef;
+  -moz-box-shadow: 0 0 10px rgba(24, 21, 131, 0.3);
+  box-shadow: 0 0 10px rgba(24, 21, 131, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0px;
+  margin-bottom:0px;
+}
+
+.navbar_left{
+  width: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.navbar_left .backicon{
+  padding-right: 35px;
+}
+
+.navbar_left span img{
+  cursor: pointer;
+}
+
+.navbar_right{
+  width: 100%;
+  float: left;
+  text-align: right;
+}
+
+.navbar_right img{
+  cursor: pointer;
+}
+
+.section_main{
+  width: 100%;
+  float: left;
+  padding: 100px 0px;
+}
+
+.top_main_content{
+  width: 100%;
+  float: left;
+}
+
+.section_title{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.section_title h2{
+  font-size: 48px;
+  color: #5b5b5b;
+  margin: 0px;
+  font-family: Montserrat-ExtraLight;
+}
+
+.section_title p{
+  font-size: 14px;
+  color: #808080;
+  margin: 0px;
+  font-family: Montserrat-ExtraLight;
+}
+
+.section_content{
+  width: 100%;
+  float: left;
+  padding: 50px 0px;
+}
+
+.section_content ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section_content ul li{
+  display: flex;
+  align-items: center;
+}
+
+.section_content ul li .icon{
+  padding-right: 20px;
+}
+
+.section_content ul li .text h4{
+  font-size: 50px;
+  color: #4d4d4d;
+  margin: 0px;
+  font-family: Montserrat-Regular;
+}
+
+.section_content ul li .text p{
+  font-size: 18px;
+  color: #4d4d4d;
+  margin: 0px;
+  font-family: Montserrat-Light;
+}
+
+.grouping_box{
+  width: 100%;
+  float: left;
+  padding: 0px 0px 50px;
+}
+
+.grouping_main_box{
+  width: 100%;
+  float: left;
+}
+
+.grouping_main{
+  width: 100%;
+  float: left;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.grouping_main:first-child{
+  border-left: 5px solid #14a388;
+}
+
+.grouping_main_left{
+  width: 90%;
+  float: left;
+  padding: 20px 0px 20px 20px;
+}
+.grouping_main_left h3{
+  font-size: 22px;
+  color: #666666;
+  margin: 0px;
+  font-family: Montserrat-Regular;
+}
+
+.grouping_main_right{
+  width: 140px;
+  float: left;
+  float: left;
+  background-color: #14a388;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 101px;
+}
+
+.grouping_main_box .grouping_main:nth-child(2) .grouping_main_right{
+  background-color: #13bc9c;
+}
+
+.grouping_main_box .grouping_main:nth-child(3) .grouping_main_right{
+  background-color: #425b77;
+}
+
+.grouping_main_right p{
+  font-size: 36px;
+  color: #ffffff;
+  margin: 0px;
+  font-family: Montserrat-Regular;
+}
+
+.grouping_main_list{
+  padding: 15px 0px 0px;
+  margin: 0px;
+}
+
+.grouping_main_list li{
+  list-style: none;
+  position: relative;
+  padding: 0 0 0 20px;
+  font-size: 16px;
+  color: #666666;
+  margin: 0px;
+  font-family: Montserrat-Light;
+
+}
+
+.grouping_main_list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  background-color: #14a388;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.grouping_main_box .grouping_main:nth-child(2) .grouping_main_list li::before{
+  background-color: #13bc9c;
+}
+
+.grouping_main_box .grouping_main:nth-child(3) .grouping_main_list li::before{
+  background-color: #425b77;
+}
+
+.value_inr{
+  font-size: 12px;
+  color: #666666;
+  margin: 0px;
+  font-family: Montserrat-Light;
+  text-align: right;
+}
+
+
+
+
+
+.progress {
+  width: 320px;
+  height: 320px;
+  line-height: 320px;
+  background: none;
+  margin: 0 auto;
+  box-shadow: none;
+  position: relative;
+}
+.progress:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 20px solid #14a388;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.progress .progress-left {
+  left: 0;
+}
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 20px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+  border-color: #425b77;
+}
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 160px;
+  border-bottom-right-radius: 160px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+.progress .progress-right {
+  right: 0;
+}
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 160px;
+  border-bottom-left-radius: 160px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+.progress .progress-value {
+  display: flex;
+  border-radius: 50%;
+  font-size: 36px;
+  text-align: center;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-weight: 300;
+}
+
+.progress .progress-value span {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.progress .progress-left-new .progress-bar{
+  border-color: #13bc9c;
+}
+
+.center_progress_value p:nth-child(1){
+  font-size: 34px;
+  color: #12d6b0;
+  margin: 0px;
+  font-family: Montserrat-Regular;
+  text-align: right;
+  line-height: 42px;
+  padding-bottom: 10px;
+}
+
+.center_progress_value p:nth-child(2){
+  font-size: 34px;
+  color: #425b77;
+  margin: 0px;
+  font-family: Montserrat-Regular;
+  text-align: right;
+  line-height: 42px;
+}
+
+.bottom_txt p{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.bottom_txt p{
+  font-size: 12px;
+  color: #666666;
+  margin: 0px;
+  font-family: Montserrat-Light;
+  padding-top: 10px;
+}
+
+/* This for loop creates the 	necessary css animation names
+Due to the split circle of progress-left and progress right, we must use the animations on each side.
+*/
+.progress[data-percentage="10"] .progress-right .progress-bar {
+  animation: loading-1 1.5s linear forwards;
+}
+.progress[data-percentage="10"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="20"] .progress-right .progress-bar {
+  animation: loading-2 1.5s linear forwards;
+}
+.progress[data-percentage="20"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="30"] .progress-right .progress-bar {
+  animation: loading-3 1.5s linear forwards;
+}
+.progress[data-percentage="30"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="40"] .progress-right .progress-bar {
+  animation: loading-4 1.5s linear forwards;
+}
+.progress[data-percentage="40"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="50"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="50"] .progress-left .progress-bar {
+  animation: 0;
+}
+
+.progress[data-percentage="60"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="60"] .progress-left .progress-bar {
+  animation: loading-1 1.5s linear forwards 1.5s;
+}
+
+.progress[data-percentage="70"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="70"] .progress-left .progress-bar {
+  animation: loading-2 1.5s linear forwards 1.5s;
+}
+
+.progress[data-percentage="80"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="80"] .progress-left .progress-bar {
+  animation: loading-3 1.5s linear forwards 1.5s;
+}
+
+.progress[data-percentage="90"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="90"] .progress-left .progress-bar {
+  animation: loading-4 1.5s linear forwards 1.5s;
+}
+
+.progress[data-percentage="100"] .progress-right .progress-bar {
+  animation: loading-5 1.5s linear forwards;
+}
+.progress[data-percentage="100"] .progress-left .progress-bar {
+  animation: loading-5 1.5s linear forwards 1.5s;
+}
+
+@keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(36);
+    transform: rotate(36deg);
+  }
+}
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(72);
+    transform: rotate(72deg);
+  }
+}
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(108);
+    transform: rotate(108deg);
+  }
+}
+@keyframes loading-4 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(144);
+    transform: rotate(144deg);
+  }
+}
+@keyframes loading-5 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180);
+    transform: rotate(180deg);
+  }
+}
+.progress {
+  margin-bottom: 1em;
+}
+
+.button_box{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.button_box a{
+  background-color: #12d6b0;
+  border: none;
+  width: 100%;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Montserrat-Light';
+  padding: 15px 40px;
+  border-radius: 3px;
+  box-shadow: -1px 6px 15px 3px rgba(71, 73, 78, 0.15);
+}
+
+.button_box a:hover{
+  text-decoration: none;
+}
+
+.wobble-horizontal {
+  display: inline-block;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.wobble-horizontal:hover {
+  animation-name: wobble-horizontal;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes wobble-horizontal {
+  16.65% {
+    transform: translateX(8px);
+  }
+
+  33.3% {
+    transform: translateX(-6px);
+  }
+
+  49.95% {
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    transform: translateX(1px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+@media (min-width:1550px){
+  .container{
+    width: 1450px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1549px) {
+  .section_title h2 {
+    font-size: 44px;
+  }
+
+  .section_content ul li .text h4 {
+    font-size: 44px;
+  }
+
+  .section_content ul li .text p {
+    font-size: 16px;
+  }
+
+  .grouping_main_left h3 {
+    font-size: 18px;
+  }
+
+  .grouping_main_right p {
+    font-size: 30px;
+  }
+
+  .progress {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+  }
+
+  .grouping_main_box {
+    padding-left: 15px;
+  }
+
+  .navbar {
+    padding: 20px 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .section_title h2 {
+    font-size: 40px;
+  }
+
+  .section_content ul li .text h4 {
+    font-size: 36px;
+  }
+
+  .section_content ul li .text p {
+    font-size: 16px;
+  }
+
+  .section_content ul li .icon img {
+    width: 35px;
+  }
+
+  .grouping_main_left h3 {
+    font-size: 18px;
+  }
+  .grouping_main_list {
+    padding: 10px 0px 0px;
+  }
+
+  .grouping_main_right {
+    height: 110px;
+  }
+
+  .grouping_main_right p {
+    font-size: 30px;
+  }
+
+  .progress {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+  }
+
+  .grouping_main_box {
+    padding-left: 15px;
+  }
+
+  .navbar {
+    padding: 20px 10px;
+  }
+
+  .center_progress_value p:nth-child(1) {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .center_progress_value p:nth-child(2) {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .button_box a {
+    font-size: 24px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section_main {
+    padding: 50px 15px;
+  }
+  .section_title h2 {
+    font-size: 36px;
+  }
+
+  .section_content ul li .text h4 {
+    font-size: 30px;
+  }
+
+  .section_content ul li .text p {
+    font-size: 14px;
+  }
+
+  .section_content ul li .icon img {
+    width: 35px;
+  }
+
+  .grouping_main_left h3 {
+    font-size: 14px;
+  }
+
+  .grouping_main_list li {
+    font-size: 13px;
+  }
+
+  .grouping_main_list {
+    padding: 10px 0px 0px;
+  }
+
+  .grouping_main_right {
+    height: 110px;
+  }
+
+  .grouping_main_right p {
+    font-size: 26px;
+  }
+
+  .progress {
+    width: 280px;
+    height: 280px;
+    line-height: 280px;
+  }
+
+  .progress .progress-bar {
+    border-width: 15px;
+  }
+
+  .progress:after {
+    border: 15px solid #14a388;
+  }
+
+  .grouping_main_box {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .navbar {
+    padding: 20px 15px;
+  }
+
+  .center_progress_value p:nth-child(1) {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .center_progress_value p:nth-child(2) {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .button_box a {
+    font-size: 24px;
+  }
+}
+
+@media (max-width:767px){
+  .navbar_left .backicon {
+    display: none;
+  }
+  .navbar_right img {
+    width: 30px;
+  }
+  .section_main {
+    padding: 50px 15px;
+  }
+  .section_title h2 {
+    font-size: 30px;
+  }
+
+  .section_content {
+    padding: 50px 0px 20px;
+  }
+
+  .section_content ul {
+    display: block;
+  }
+
+  .section_content ul li {
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+  }
+
+  .section_content ul li .text h4 {
+    font-size: 22px;
+  }
+
+  .section_content ul li .text p {
+    font-size: 14px;
+  }
+
+  .section_content ul li .icon img {
+    width: 35px;
+  }
+
+  .grouping_main_left h3 {
+    font-size: 14px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+  }
+
+  .grouping_main_left {
+    width: 90%;
+    float: left;
+    padding: 15px 0px 15px 15px;
+  }
+
+  .grouping_main_list li {
+    font-size: 13px;
+  }
+
+  .grouping_main_list {
+    padding: 10px 0px 0px;
+  }
+
+  .grouping_main_right {
+    height: 110px;
+  }
+
+  .grouping_main_right p {
+    font-size: 26px;
+  }
+
+  .progress {
+    width: 280px;
+    height: 280px;
+    line-height: 280px;
+  }
+
+  .progress .progress-bar {
+    border-width: 15px;
+  }
+
+  .progress:after {
+    border: 15px solid #14a388;
+  }
+
+  .grouping_main_box {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 35px;
+  }
+
+  .navbar {
+    padding: 20px 15px;
+  }
+
+  .center_progress_value p:nth-child(1) {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .center_progress_value p:nth-child(2) {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .button_box a {
+    font-size: 24px;
+  }
+}
